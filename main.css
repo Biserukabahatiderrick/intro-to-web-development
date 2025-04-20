@@ -11,3 +11,84 @@
 }
 
 /* Write your code below this */
+
+.navbar{
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0,12px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  
+}
+.hero{
+  background-image: url('/images/hero.png');
+  height: 500px;
+  padding-top: 219px;
+  padding-left  :103px;
+}
+h1{
+  font-size:36px ;
+  margin-bottom: 15px; 
+}
+.pgh{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+button{
+  margin-top: 10px;
+  padding: 16px,40px,16px,40px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+}
+.journey{
+  background: #618379;
+  padding: 57px;
+}
+h2{
+  color: white;
+  padding: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+.journey-list{
+  display: flex;
+  width: 80%;
+  margin: 20px;
+  justify-content: space-between;
+}
+.journey-card{
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color: gray;
+  margin-left:17px;
+  
+
+}
+.journey-image{
+  border-radius: 25px;
+  margin-bottom:30px
+}
+h3{
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 12px;
+}
+footer{
+  background: #333232;
+  text-align:center;
+  color: white;
+  padding: 30px;
+}
